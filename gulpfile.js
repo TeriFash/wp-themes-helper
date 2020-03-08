@@ -3,7 +3,9 @@
 /* пути к исходным файлам (src), к готовым файлам (build), 
 а также к тем, за изменениями которых нужно наблюдать (watch) */
 
-let dist = 'terifash/build'
+let temePatch;
+let dist = `${temePatch ? temePatch : 'mytheme'}/build`
+
 let path = {
   build: {
     // html: `${dist}/**/*.html`,

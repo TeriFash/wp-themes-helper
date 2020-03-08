@@ -5,6 +5,10 @@
   "author": "Teri Fash",
   "license": "ISC",
   "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://TeriFash@bitbucket.org/TeriFash/wp-boilerplate.git"
+  },
   "scripts": {
     "dev": "npm run gulp",
     "watch": "npm run gulp:watch",
@@ -36,9 +40,5 @@
     "imagemin-jpeg-recompress": "^6.0.0",
     "imagemin-pngquant": "^8.0.0",
     "font-awesome": "^4.7.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TeriFash"
-  },
+  }
 }

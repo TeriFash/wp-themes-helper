@@ -4,17 +4,20 @@
 
 List of command line:
 
-`npm i` install all packages.
+- `npm i` install all packages.
 
-add temes patch in gulpfile.js `temePatch = 'mytheme'`  
+- add temes patch in gulpfile.js `temePatch = 'mytheme'`  
 
-Watch mode for development.
-`npm run start`
-`yarn start`
+Watch mode for development
 
-All input at `src` folder.
-All output at `temePatch/build` folder.
-All static file in `assets` folder. 
+- `npm run start`
+- `yarn start`
+
+How used directories
+
+- All input at `src` folder.
+- All output at `mytheme/build` folder.
+- All static file in `assets` folder. 
 
 💻 **DEVELOPMENT**
 

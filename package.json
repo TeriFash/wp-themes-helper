@@ -1,0 +1,44 @@
+{
+  "name": "wp-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Teri Fash",
+  "license": "ISC",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "npm run gulp",
+    "watch": "npm run gulp:watch",
+    // "lint:js": "eslint src/js/**/*.{js}",
+    // "lint:sass": "stylelint src/sass/**/*.{scss,sass}",
+    // "lint": "npm run lint:js && npm run lint:sass"
+  },
+  "keywords": [
+    "boilerplate",
+    "wordpress",
+    "starter-kit",
+    "sass",
+    "gulp",
+    "npm"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache": "^1.1.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rimraf": "^0.2.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-rename": "^1.4.0",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "font-awesome": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeriFash"
+  },
+}

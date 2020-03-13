@@ -1,21 +1,20 @@
 {
   "name": "wp-boilerplate",
-  "version": "0.1.0",
-  "private": true,
-  "author": "Teri Fash",
-  "license": "ISC",
+  "version": "1.0.0",
+  "description": "",
   "main": "gulpfile.js",
+  "scripts": {
+    "test": "dev",
+    "dev": "npm gulp",
+    "watch": "npm gulp:watch"
+  },
   "repository": {
     "type": "git",
-    "url": "https://TeriFash@bitbucket.org/TeriFash/wp-boilerplate.git"
+    "url": "git+https://TeriFash@bitbucket.org/TeriFash/wp-boilerplate.git"
   },
-  "scripts": {
-    "dev": "npm run gulp",
-    "watch": "npm run gulp:watch",
-    // "lint:js": "eslint src/js/**/*.{js}",
-    // "lint:sass": "stylelint src/sass/**/*.{scss,sass}",
-    // "lint": "npm run lint:js && npm run lint:sass"
-  },
+  "author": "Teri Fash",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/TeriFash/wp-boilerplate#readme",
   "keywords": [
     "boilerplate",
     "wordpress",
@@ -24,21 +23,23 @@
     "gulp",
     "npm"
   ],
-  "devDependencies": {
+  "dependencies": {
+    "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-cache": "^1.1.2",
     "gulp-clean-css": "^4.2.0",
-    "gulp-rimraf": "^0.2.2",
     "gulp-imagemin": "^6.0.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-rigger": "^0.5.8",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2",
     "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-rimraf": "^0.2.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
-    "imagemin-pngquant": "^8.0.0",
-    "font-awesome": "^4.7.0"
+    "imagemin-pngquant": "^8.0.0"
+  },
+  "devDependencies": {
+    "gulp-sourcemaps": "^2.6.5"
   }
 }

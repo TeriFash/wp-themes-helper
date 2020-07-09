@@ -1,6 +1,4 @@
-# This steps are necessary to get starting work.
-
-## What is this repository for? ##
+## How use  this repositories for WP theme created
 
 List of command line:
 
@@ -10,8 +8,7 @@ List of command line:
 
 Watch mode for development
 
-- `npm run start`
-- `yarn start`
+- `npm run start` or `yarn start`
 
 How used directories
 

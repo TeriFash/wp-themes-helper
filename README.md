@@ -2,7 +2,7 @@
 
 List of command line:
 
-- `npm i` install all packages.
+- `npm install` install all packages.
 
 - add temes patch in gulpfile.js `temePatch = 'mytheme'`  
 
